@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 12</title>
+    <script src="Atividade 12.js"></script>
+</head>
+
+<body>
+    <form name="formulario1" id="formulario1" onsubmit="validarDados();">
+        <div id="principal" width=200 heigth=200 align=center>
+            Nome Completo:
+            <input name="idNome" type="text" id="idNome" size="52" maxlength="150">
+            <br>
+            <br> E-Mail :
+            <input name="idEmail" type="email" id="idEmail" size="52" maxlength="150">
+            <br>
+            <br> Mensagem :
+            <textarea name="idMensagem" cols="50" rows="8" id="idMensagem" value="" input></textarea>
+            <br>
+            <br> Pesquisa <br>
+            <br>
+            <label for="">Primeira vez nesta página?
+                <br>
+                Sim
+                <input type="radio" name="pesquisa" id="sim">
+                Não
+                <input type="radio" name="pesquisa" id="nao">
+            </label>
+            <br>
+            <br>
+            <input name="Submit" type="submit" form="formulario1" value="Enviar">
+        </div>
+    </form>
+</body>
+
+</html>
